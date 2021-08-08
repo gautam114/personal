@@ -1,0 +1,91 @@
+html{scroll-behavior: smooth;}
+header{height:100vh; width:100%; 
+        background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)),url('https://www.visitwhitemountains.com/UploadedFiles/Slideshow/1/echolake.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;    
+        clip-path: polygon(0 0, 100% 0, 100% 63%, 50% 100%, 0 61%);
+        position:relative;
+       color: white !important;;   
+    }
+  header::before{
+       content:'';
+       top:0%;
+       bottom: 0%;
+       left:0%;
+       right:0%;
+       background:linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);
+       opacity:.3;
+       position:absolute;
+       z-index:-1;
+   }
+    .navbar{
+        background:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3));
+     opacity:.5;
+     
+    
+    }
+    .nav-item a{
+        color: white!important;
+        font-weight: bold;
+    }
+    section{
+     position:absolute;
+     top:50%;
+     left:50%;
+     
+     transform:translate(-50%,-50%);
+     -ms-transform:translate(-50%,-50%);
+     -webkit-transform:translate(-50%,-50%);
+     z-index: 1;    
+    }
+   #a ._colm:hover{
+   transform:translatey(-10px);
+   transition:all 0.5s;
+   }
+   #a ._colm span{
+       color:aquamarine;
+   }
+   span{color:aquamarine;}
+   #pricing{
+       background:linear-gradient(160deg,aquamarine 55%,white 0%);
+       
+    }
+    #center_card{
+        transform:translatey(-1rem);
+        
+    }
+    ._cardd:hover{
+               transform: translatey(-1rem);
+    transition:all 0.5s;
+            }
+    #center_card span,._cardd span{
+        color:black;
+    }
+    #center_card:hover span,._cardd:hover span {
+        color:aquamarine;
+
+    }
+    #center_card:hover h4,._cardd:hover h4 {
+        color:aquamarine;
+    }
+#contact{
+    background:linear-gradient(198deg,aquamarine 50%,white 0%);
+    
+}
+#contact button{background:transparent; border:0;}
+#contact:hover button{
+    background:black;
+
+}
+#subscribe input{
+border-radius:100px 0px 0px 100px!important;    
+}
+#subscribe span{
+    border-radius: 0px 100px 100px 0px!important;
+}
+#mybtn{
+    position:fixed;
+    bottom:20px;
+    right:30px;
+display:none;
+}
